@@ -3,6 +3,9 @@ name = "python-eufy-security-mqtt"
 version = "0.1.0"
 description = "Subscribe to eufy Security Doorbell events"
 authors = ["Alexander Bessonov <nonsleepr@gmail.com>"]
+packages = [
+  { include = "eufy_security/mqtt", from = "src" }
+]
 
 [tool.poetry.dependencies]
 python = "^3.7"
