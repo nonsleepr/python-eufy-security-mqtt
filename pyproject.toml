@@ -2,6 +2,7 @@
 name = "python-eufy-security-mqtt"
 version = "0.1.0"
 description = "Subscribe to eufy Security Doorbell events"
+license = "MIT"
 authors = ["Alexander Bessonov <nonsleepr@gmail.com>"]
 packages = [
   { include = "eufy_security/mqtt", from = "src" }
